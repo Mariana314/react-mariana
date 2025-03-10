@@ -4,11 +4,11 @@ import Image from "../../../assets/Images/Image3.png";
 export const Main = () => {
   return (
     <>
-    <div className='flex justify-between items-center gap-10'>
+    <div className='flex justify-between items-center gap-20 mt-auto'>
 
       <img className='w-48 md:w-56 lg:w-64' src= { Image } alt="" />
 
-      <div className='flex w-1/2'>
+      <div className='flex '>
         <div className="max-w-md ">
           <h1 className="text-2xl font-semibold">Analista y desarrolladora de software</h1>
           <p className="text-gray-700">

@@ -4,16 +4,17 @@ import { ItemNavbar } from "../../UI/ItemNavbar/ItemNavbar";
 
 export const Header = () => {
   return (
-    <header className="w-full  bg-[#D9EAFD] flex justify-between p4 list-none font-[Playfair Display] italic font-bold ">
+    <header className="w-full flex bg-[#D9EAFD] justify-between  list-none font-[Playfair Display] italic font-bold">
         
     <h1 className="mt-2 text-4xl font-bold m-4 ">MARIANA OCAMPO MEDINA</h1>
       <Navbar>
         <ul className='flex space-x-2 mt-2 m-4 font-bold'> 
           <ItemNavbar route='/' contentItem='INICIO'/>
           <ItemNavbar route='/AboutMe' contentItem='SOBRE MI'/>
+          <ItemNavbar route='/Experience' contentItem='EXPERIENCIA'/>
+          
         </ul>
       </Navbar>
   </header>
-  
   )
 }

@@ -3,6 +3,8 @@ import { Header } from './Components/Layouts/Header/Header'
 import { Home } from './Components/Pages/Home/Home'
 import { AboutMe } from "./Components/Pages/AboutMe/AboutMe";
 import { NotFound } from "./Components/Pages/NotFound/NotFound";
+import { Footer } from "./Components/Layouts/Footer/Footer";
+
 
 export const App = () => {
   return (
@@ -14,6 +16,7 @@ export const App = () => {
     <Route path="*" element ={<NotFound />} />
 
  </Routes>
+ <Footer />
  </>
   )
 }

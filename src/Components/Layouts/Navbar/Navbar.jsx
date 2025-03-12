@@ -4,7 +4,7 @@ export const Navbar = ({ children }) => {
     return (
         <>
             <nav>
-                {children}
+                    {children}
             </nav>
         </>
     )

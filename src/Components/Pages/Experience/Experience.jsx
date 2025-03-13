@@ -3,7 +3,7 @@ import Hi from "../../../assets/Images/Hi.png";
 
 export const Experience = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-10 p-8">
+    <div className="flex flex-col md:flex-row lg:mt-30 md:mt-20 items-center lg:justify-center gap-10 p-8">
 
       <div className="flex justify-center w-full md:w-1/3">
         <img

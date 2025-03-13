@@ -3,7 +3,7 @@ import Me from "../../../assets/Images/Me.png";
 
 export const Main = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-10 lg:gap-16 p-8 lg:p-12">
+    <div className="flex flex-col md:flex-row lg:mt-20 md:mt-20 items-center gap-10 lg:gap-16 p-8 lg:p-12">
 
       <div className="p-5 border-l-4 border-emerald-600 bg-white rounded-md flex justify-center shadow-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl">
         <img 

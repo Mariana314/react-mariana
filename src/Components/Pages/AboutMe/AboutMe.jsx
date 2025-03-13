@@ -2,7 +2,7 @@ import React from 'react';
 
 export const AboutMe = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-6 lg:gap-12 p-6">
+    <div className="flex flex-col md:flex-row lg:mt-40 md:mt-40 gap-6 lg:gap-12 p-6">
      
       <div className="w-full md:w-1/2 p-6 border-l-4 border-emerald-600 bg-white rounded-lg shadow-xl transition-transform duration-300 ease-in-out hover:shadow-2xl hover:scale-110">
         <h2 className="text-2xl font-semibold mb-4 text-gray-800 text-center md:text-left"> 🛠 Habilidades Técnicas</h2>
